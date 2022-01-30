@@ -6,9 +6,10 @@ import './Form.css';
 const Form = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
 
-  function submitForm() {
+  const submitForm = () => {
     setIsSubmitted(true);
-  }
+  };
+
   return (
     <>
       <div className="form-container">
